@@ -6,4 +6,5 @@ module.exports = {
     "^.+\\.(ts|tsx)?$": "ts-jest",
     "^.+\\.(js|jsx)$": "babel-jest",
   },
+  transformIgnorePatterns: ["node_modules/(?!.*\\.mjs$)"],
 };
